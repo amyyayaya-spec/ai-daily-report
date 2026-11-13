@@ -18,8 +18,9 @@ a{color:#0b5fff;word-break:break-all}
 </head>
 <body>
 <h1>AI 基礎設施日報</h1>
-<p class="header-note">匯出日期：2026-11-12。共 113 班報告全文（2026-10-05 至最新班），另標示 2026-10-19 午報缺班。事實與分析分段：重點摘要與公司動態只寫可查證事實並附來源，推論與觀點放在產業觀察與分析。本頁不含任何個人資訊（郵箱地址已移除）。</p>
+<p class="header-note">匯出日期：2026-11-13。共 114 班報告全文（2026-10-05 至最新班），另標示 2026-10-19 午報缺班。事實與分析分段：重點摘要與公司動態只寫可查證事實並附來源，推論與觀點放在產業觀察與分析。本頁不含任何個人資訊（郵箱地址已移除）。</p>
 <ul class="index">
+<li><a href="#2026-11-12-evening">2026-11-12（晚報）</a></li>
 <li><a href="#2026-11-12-afternoon">2026-11-12（午報）</a></li>
 <li><a href="#2026-11-12-morning">2026-11-12（早報）</a></li>
 <li><a href="#2026-11-11-evening">2026-11-11（晚報）</a></li>
@@ -134,6 +135,124 @@ a{color:#0b5fff;word-break:break-all}
 <li><a href="#2026-10-06-morning">2026-10-06（早報）</a></li>
 <li><a href="#2026-10-05-morning">2026-10-05（早報）</a></li>
 </ul>
+<section class="edition" id="2026-11-12-evening">
+<h2>2026-11-12（晚報）</h2>
+<div class="body">2026-11-12（晚報）
+
+搜尋窗口：2026-11-12 15:00 至 23:30（美國太平洋時間）。11/12 午報已報導的內容（NVIDIA 收盤跌 4.3%、Cisco 與 Applied Materials 財報、Cerebras Q3 與 Microsoft 簽約、Nebius 續跌約 18%、Anthropic IPO 財務細節、OpenAI「Cyber at the Frontier」、Marvell 董事任命）本班不再重複，只報導本時段的新進展與補錄。
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+一、本時段重點摘要（僅事實）
+
+1. 黃仁勳同意赴國會作證，參議院銀行委員會排定 12 月 3 日聽證：眾議院外交事務委員會主席 Brian Mast 11 月 12 日表示，黃仁勳已同意在感恩節前赴國會作證。參議院銀行委員會主席 Tim Scott 同日要求黃仁勳於 12 月 3 日、商務部長 Howard Lutnick 於 12 月 10 日赴該委員會作證。另據報導，眾議院歲入委員會民主黨首席議員 Richard Neal 與參議院財政委員會民主黨首席議員 Ron Wyden 11 月 12 日致函 Lutnick，就川普政府批准並課稅 NVIDIA H200 對中國銷售一事展開調查，要求保存相關紀錄；信中質疑以 232 條款關稅變相課徵出口稅，並質疑商務部在接獲情報通報後仍允許 Megaspeed 繼續採購。上述指控均為調查函內容，尚未經證實。
+來源：<a href="https://www.usatoday.com/story/tech/2026/11/12/what-does-jensen-huangs-resignation-mean-for-ai/92739989007/">https://www.usatoday.com/story/tech/2026/11/12/what-does-jensen-huangs-resignation-mean-for-ai/92739989007/</a>
+來源：<a href="https://fourweekmba.com/ai-ex-nvidia-ceo-huang-asked-to-testify-dec-3-lutnick-dec-10/">https://fourweekmba.com/ai-ex-nvidia-ceo-huang-asked-to-testify-dec-3-lutnick-dec-10/</a>
+來源：<a href="https://www.unite.ai/neal-and-wyden-open-probe-into-nvidias-china-chip-sales/">https://www.unite.ai/neal-and-wyden-open-probe-into-nvidias-china-chip-sales/</a>
+
+2. 權重鑑識報告稱六款中國開源模型帶有 Blackwell 指紋：Unemployment Labs 11 月 12 日發表的鑑識分析指出，DeepSeek、Moonshot AI、MiniMax 與螞蟻集團自 2026 年 4 月以來發布的六款開源模型（DeepSeek-V4-Flash、DeepSeek-V4-Pro、Kimi K3、Kimi K3.1-Pro、MiniMax-M3、Ling-3.1-flash），其公開權重中的初始值數值模式與 NVIDIA Blackwell 晶片（B200／B300 或 GB200／GB300）相符；同一批實驗室的早期模型則對應舊一代 Hopper。報告稱，證據完全來自模型公開權重，並在實體 Blackwell 晶片上驗證了其中兩款模型的匹配；但報告同時強調，該指紋只能證明權重如何生成、支持但無法證明 Blackwell 執行了訓練，且無法確立晶片所在地、取得方式或是否違反出口管制。B200、GB200 等對中國出口須取得美國許可，據報告稱目前未見此類許可紀錄。
+來源：<a href="https://unemploymentlabs.com/checkpoint-forensics">https://unemploymentlabs.com/checkpoint-forensics</a>
+來源：<a href="https://www.unite.ai/unemployment-labs-reports-blackwell-patterns-in-chinese-ai-models/">https://www.unite.ai/unemployment-labs-reports-blackwell-patterns-in-chinese-ai-models/</a>
+
+3. Cerebras 坦承對 OpenAI 的首批推論容量落後，卡在資料中心合約：據 Crypto Briefing 11 月 12 日報導，Cerebras 承認其對 OpenAI 的首批 250 MW 推論容量（2026 年底到期）已落後進度，原因不是晶片供應，而是資料中心合約簽約耗時超出預期；公司形容取得場地的速度是「房地產的速度」。雙方於 2025 年 12 月 24 日簽署主關係協議，OpenAI 同意採購 750 MW 推論容量、分三批各 250 MW（2026、2027、2028 年底到期），協議總值估計逾 200 億美元，OpenAI 另可選擇至 2030 年再加 1.25 GW；OpenAI 於 2026 年 1 月向 Cerebras 提供 10 億美元營運資金貸款。Cerebras  backlog 已逾 250 億美元，正於北美與歐洲洽談新場地，包括芬蘭一處 165 MW 設施。
+來源：<a href="https://cryptobriefing.com/cerebras-delays-openai-capacity-tranches/">https://cryptobriefing.com/cerebras-delays-openai-capacity-tranches/</a>
+
+4. OpenAI 喬治亞州 Camellia 園區兩項投票雙雙延後：三名 Effingham County 居民控告 OpenAI 關聯公司與地方官員的民事 RICO 訴訟（11 月 10 日見報）仍在進行之際，該縣委員會 11 月 12 日一致表決，將 3.2 GW、約 300 億美元 Project Camellia 園區的最終許可投票延至 11 月 19 日（原訂 11 月 4 日）；園區用地計畫的投票亦延至 11 月 17 日，噪音防護、公用設施與濕地影響等問題未解。園區位於 Savannah Gateway Industrial Hub，佔地約 1,347–1,440 英畝、規劃六棟資料中心建築；若獲許可，最早 2028 年動工。
+來源：<a href="https://www.privatewealthdaily.com/story/openai-faces-racketeering-claim-over-30-billion-georgia-data-center">https://www.privatewealthdaily.com/story/openai-faces-racketeering-claim-over-30-billion-georgia-data-center</a>
+來源：<a href="https://newsnowgeorgia.org/2026/11/12/update-effingham-county-tables-vote-on-openai-data-center-plan/">https://newsnowgeorgia.org/2026/11/12/update-effingham-county-tables-vote-on-openai-data-center-plan/</a>
+
+5. SpaceX 宣布兩座 AI 超算園區、合計投資逾 740 億美元：SpaceX 11 月 12 日表示，計畫投資逾 740 億美元興建兩座 AI 超級運算園區：德州 Starbase 逾 240 億美元、亞利桑那州 Cochise County 約 500 億美元；亞利桑那園區滿載用電上看 6 GW、九棟建築，採乾式冷卻。兩案皆未獲最終許可：Cochise County 規劃委員會將於 12 月 9 日舉行特殊使用許可公開聽證（已有約 2,400 人連署要求否決），Starbase 市委員會同日審議稅收減免與開發協議；Starbase 燃氣電廠的州空氣許可登記截至 11 月 12 日仍待核准。
+來源：<a href="https://mlq.ai/news/spacex-plans-more-than-74-billion-of-ai-supercomputing-campuses-in-texas-and-arizona/">https://mlq.ai/news/spacex-plans-more-than-74-billion-of-ai-supercomputing-campuses-in-texas-and-arizona/</a>
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+二、公司動態（僅事實）
+
+TSMC
+- 員工資料外洩事件後續：TSMC 11 月 12 日向台灣證交所與美國 SEC 提交 6-K，確認部分現職與前職員工資料未經授權出現於外部網站，經比對與一家合作雲端服務供應商系統內的資料相符；公司表示目前無證據顯示自身系統遭入侵，洩漏內容與晶圓生產或客戶資料無關。據台灣媒體報導，駭客在暗網論壇兜售約 6.9 GB、號稱 46,000 筆員工紀錄的資料，索價 3 枚比特幣（約 7.4 萬美元新台幣等值，約 22 萬美元），並稱一週內無人購買即公開；公開樣本含 499 筆紀錄、每筆 19 個欄位。上述筆數與索價為賣方說法，未經 TSMC 證實；TSMC 未公布受影響人數，亦未指名該雲端供應商。事件本身見 11/12 早報，本班補錄 6-K 與勒索細節。
+來源：<a href="https://cybersecuritynews.com/tsmc-data-breach/">https://cybersecuritynews.com/tsmc-data-breach/</a>
+來源：<a href="https://www.kucoin.com/news/flash/hacker-demands-3-btc-for-6-9gb-of-tsmc-employee-data-claims-leak-from-cloud-vendor">https://www.kucoin.com/news/flash/hacker-demands-3-btc-for-6-9gb-of-tsmc-employee-data-claims-leak-from-cloud-vendor</a>
+- TSM 美股 11 月 12 日收 405.49 美元、跌 1.90%，10 月營收（約新台幣 5,868.9 億元、年增 59.7%）見 11/12 早報。
+來源：<a href="https://www.heygotrade.com/en/news/tsmc-tsm-stock-news-november-13-2026/">https://www.heygotrade.com/en/news/tsmc-tsm-stock-news-november-13-2026/</a>
+
+Broadcom
+- 收盤漲 5.54% 至 364.36 美元，資金延續自 NVIDIA 動盪轉向客製化晶片的輪動；2026 財年第三季 AI 半導體營收 167 億美元（年增 221%）、2027 財年 AI 指引約 1,150 億美元見 11/09–11/10 各班報導。據報導，天風國際分析師郭明錤認為，NVIDIA 重組對其產品開發與競爭力的影響不早於 2028 年才會浮現；Google TPU 生態系的機會則在短期內有利 Broadcom 與聯發科。
+來源：<a href="https://www.fool.com/investing/2026/11/12/2-chip-stocks-to-buy-instead-of-nvidia-right-now/">https://www.fool.com/investing/2026/11/12/2-chip-stocks-to-buy-instead-of-nvidia-right-now/</a>
+來源：<a href="https://www.ad-hoc-news.de/boerse/unternehmensnachrichten/broadcom-s-custom-silicon-thesis-gets-a-leadership-shake-up-and-a-december-deadline/70501707">https://www.ad-hoc-news.de/boerse/unternehmensnachrichten/broadcom-s-custom-silicon-thesis-gets-a-leadership-shake-up-and-a-december-deadline/70501707</a>
+
+OpenAI
+- Camellia 園區投票延後與 Cerebras 交付落後見重點摘要第 3、4 條。
+- 宣布在印度推出 API 推論落地（inference residency），符合資格的企業與開發者可在印度境內處理 AI 請求，首波支援 GPT-6 Luna 模型的 Responses 與 Chat Completions API；此為 OpenAI「OpenAI for India」計畫的一環，該計畫早前已包括與 Tata Group 合作發展印度本地 AI 資料中心容量。
+來源：<a href="https://www.thehindubusinessline.com/info-tech/openaiannounceslocalaiprocessinginindiawithapi-inferenceresidency/article71692832.ece">https://www.thehindubusinessline.com/info-tech/openaiannounceslocalaiprocessinginindiawithapi-inferenceresidency/article71692832.ece</a>
+
+Anthropic
+- 本時段無新公告。IPO 財務細節（Q3 營收 170 億美元、10 月年化 810 億美元）與發行條件（每股 70–78 美元、定價 11 月 18 日、11 月 19 日以代號 ANT 在 Nasdaq 首日交易）見午報。
+
+Google
+- 本時段無新公告。TPU 8tx／8i Max 發布見 11/09–11/10 各班；Gemini Decisions API 見午報。Google 為本時段成立的 SGLang 聯盟創始成員，見「其他」。
+
+Meta
+- 本時段無新公告。基礎設施主管 Santosh Janardhan 將於 2027 年初卸任、前 AWS 高管 Dave Brown 接手見 11/11 午報。Meta 為 SGLang 聯盟創始成員，見「其他」。
+
+AWS（Amazon）
+- 本時段無新公告。AWS Emulator 見午報。
+
+NVIDIA
+- 國會作證安排、H200 銷售調查與 Blackwell 指紋報告見重點摘要第 1、2 條。
+- Barron&#x27;s 評論認為即便在危機中 NVIDIA 股票仍值得買入：以約 164 美元計，股價較 10 月高點跌約 31%；據 FactSet，市場預期公司 2026 日曆年獲利逾 2,000 億美元。臨時執行長 Colette Kress 仍非董事會永久人選的可能人選，見午報。Q3 財報維持 11 月 17 日盤後公布。
+來源：<a href="https://www.barrons.com/articles/jensen-huang-buy-nvidia-stock-ee276ed1">https://www.barrons.com/articles/jensen-huang-buy-nvidia-stock-ee276ed1</a>
+- NVIDIA 為 SGLang 聯盟創始成員，見「其他」。
+
+AMD
+- 推出 MEXT 預測式記憶體軟體，以 AI 模型預測記憶體頁面需求、把冷資料移至 NVMe 快閃記憶體：據 AMD 測試，以 Synopsys PrimeTime 晶片時序分析為基準，DRAM 減半仍保留 95% 效能；以 Apache Spark 為基準，DRAM 減半保留約 99% 效能；DRAM 佔比降至 25% 時效能降至約 80%。AMD 稱該技術可使 EPYC 伺服器 DRAM 需求減少 20%–75%，自家 IT 已在 145 台伺服器部署、節省約 490 萬美元 DRAM 採購支出，記憶體擴充成本較全 DRAM 方案低約 83%，計畫 2027 年擴至 2,000 台；將透過 OEM 夥伴以授權方式銷售，僅支援 AMD 硬體。AMD 於 6 月收購 MEXT 新創。
+來源：<a href="https://www.theregister.com/systems/2026/11/11/amd-where-were-going-we-dont-need-as-much-dram/5308953">https://www.theregister.com/systems/2026/11/11/amd-where-were-going-we-dont-need-as-much-dram/5308953</a>
+來源：<a href="https://www.kucoin.com/news/flash/amd-s-mext-solution-cuts-server-dram-demand-by-up-to-75">https://www.kucoin.com/news/flash/amd-s-mext-solution-cuts-server-dram-demand-by-up-to-75</a>
+- Microsoft Azure 開放第 6 代 EPYC（Venice）HDv2 系列虛擬機器預覽，Azure 為首家提供該處理器的雲端業者；MI300X 已在 Azure 全面上線、MI455X 將隨 Helios 設計導入 Azure。第 6 代 EPYC 發布與 Meta 驗證見 11/10 晚報。
+來源：<a href="https://techcommunity.microsoft.com/blog/azureinfrastructureblog/visit-azure-and-amd-at-microsoft-ignite-and-sc26/4570345">https://techcommunity.microsoft.com/blog/azureinfrastructureblog/visit-azure-and-amd-at-microsoft-ignite-and-sc26/4570345</a>
+- 邊緣 AI PC：AMD Ryzen AI Halo 成為首個支援 Microsoft Project Zenith（預先配置的 Windows 11 本機 AI 開發環境）的平台。
+
+Microsoft
+- Azure 與 AMD 的合作見 AMD 段。Microsoft Ignite 將於 11 月 17–20 日舉行，見「值得關注」。
+
+Marvell
+- 本時段無新公告。董事任命見午報；2027 財年第三季財報預定 12 月 1 日公布；收購 Lumentum 的全股票交易（企業價值約 1,150 億美元）見 11/11 各班，預計 2028 上半年完成。
+
+其他
+- 開源推論聯盟成立：LMSYS Org 11 月 12 日在首屆 SGLang Summit 開幕演講宣布成立 SGLang 聯盟，創始成員包括 NVIDIA、AMD、Intel、Google、Meta、Cloudflare、Modal 與 RadixArk，將與 SGLang 維護者共同制定路線圖、推進開源 AI 推論，聚焦前沿模型支援、推理與多模態工作負載、分散式推論與硬體優化。據 Deloitte 預估，推論將佔 2026 年全部 AI 算力的約三分之二，高於 2025 年的約一半。SGLang 為 PyTorch 生態系的全端推論引擎，運行於數十萬顆 GPU 上，Meta、Microsoft、Google、Amazon 等均為其生產級用戶。
+來源：<a href="https://www.businesswire.com/news/home/20261112052367/en/LMSYS-Org-Launches-SGLang-Consortium-with-NVIDIA-AMD-Intel-Google-Meta-Cloudflare-Modal-and-RadixArk-to-Advance-Open-Source-AI-Inference">https://www.businesswire.com/news/home/20261112052367/en/LMSYS-Org-Launches-SGLang-Consortium-with-NVIDIA-AMD-Intel-Google-Meta-Cloudflare-Modal-and-RadixArk-to-Advance-Open-Source-AI-Inference</a>
+- Neocloud 補錄：Nebius Q3 財報與股價走勢見午報；管理層在電話會上表示，預期客戶預付款與資產擔保融資將支應 2027 年資本支出的 75%–85%。
+來源：<a href="https://www.thestreet.com/investing/nebius-nbis-stock-sinks-18-despite-record-quarter">https://www.thestreet.com/investing/nebius-nbis-stock-sinks-18-despite-record-quarter</a>
+- 記憶體：Precedence Research 11 月 12 日發布的 HBM 市場報告預估，全球 HBM 市場規模 2026 年為 91.8 億美元、2035 年達 697.5 億美元（年複合成長率 25.37%）。報告引述供應商說法：SK hynix 的 HBM 與相關 DRAM 產品已售罄至 2029 年；Micron 2026 年 HBM 供應已售罄、僅能滿足客戶需求的一半至三分之二，且已收取 220 億美元客戶預付款；Samsung 預期 2027 年 AI 驅動的需求將遠超產業供給。SK hynix 預期 HBM4 將於 2026 年第四季在出貨與營收上超越 HBM3E；Micron 的 HBM4 樣品頻寬為 2.8 TB／s，高於 JEDEC 目標 2 TB／s。上述供應商說法多源自第三季財報，本報告為 11 月 12 日的市場研究彙整。
+來源：<a href="https://www.globenewswire.com/news-release/2026/11/12/3401813/0/en/high-bandwidth-memory-hbm-market-to-reach-usd-69-75-billion-by-2035-as-ai-accelerators-drive-sold-out-supply-and-the-shift-to-hbm4.html">https://www.globenewswire.com/news-release/2026/11/12/3401813/0/en/high-bandwidth-memory-hbm-market-to-reach-usd-69-75-billion-by-2035-as-ai-accelerators-drive-sold-out-supply-and-the-shift-to-hbm4.html</a>
+- 中國記憶體擴產警訊：據 11 月 12 日報導，半導體資深人士、前南亞科總經理 Charles Kau 警告，中國長鑫存儲（CXMT）正在北京、上海等地興建 10 座晶圓廠，產能規模最終可能使 DRAM 市場供過於求、價格下跌，對 Samsung、SK hynix 與 Micron 構成價格競爭壓力；技術上仍落後，但擴產速度本身即為變數。
+來源：<a href="https://www.sammyfans.com/2026/11/11/samsung-boss-vows-ai-semiconductor-pivot-with-new-hbm-advanced-packaging-hub/">https://www.sammyfans.com/2026/11/11/samsung-boss-vows-ai-semiconductor-pivot-with-new-hbm-advanced-packaging-hub/</a>
+- 資料中心：SpaceX 兩座 AI 超算園區見重點摘要第 5 條。
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+三、產業觀察與分析（分析師觀點，僅供參考）
+
+1. 國會調查與權重鑑識把 NVIDIA 事件從公司治理擴大到出口管制執法，但兩者的證據位階不同。Neal／Wyden 的調查函與參議院銀行委員會的聽證安排，意味著黃仁勳離職並未終結政治追究，反而把焦點轉向 H200 銷售的批准鏈條與 Megaspeed 的採購紀錄；12 月 3 日與 12 月 10 日的聽證將是第一個公開對質場合。Unemployment Labs 的鑑識方法提供了技術證據，但報告自身劃清界線：指紋能證明權重如何生成，不能證明走私或違規。市場應區分「技術上可信的硬體接觸證據」與「執法結論」，後者仍需所有權、地點與取得方式的證據鏈；在此之前，對中國 AI 實驗室算力取得能力的評估應上修，但對 NVIDIA 合規風險的定價不宜直接等同於違規定罪。
+
+2. 推論算力的瓶頸正在從晶片轉向「房地產的速度」。Cerebras 坦承對 OpenAI 的首批容量落後、原因在資料中心合約，Nebius 新澤西站點亦因第三方發電設備退役而延遲，兩件事指向同一結論：2026 年底的交付風險不在 GPU 供應，而在電力、場地與合約談判的工期。預付款與資產擔保融資能買時間、不能買工期——Nebius 預期預付款支應 2027 年支出的 75%–85%，前提是延至 2027 上半年的第三方產能如期上線；若場地再度延遲，預付款模式的現金流承諾將反過來成為壓力來源。
+
+3. 記憶體成為 AI 基礎設施的第二條戰線，短期短缺與長期過剩預期並存。AMD 的 MEXT 用軟體繞過 DRAM 短缺——DRAM 減半仍保 95% 效能、擴充成本降 83%——顯示在 DRAM 價格飆漲的環境下，記憶體效率軟體本身成了有商業價值的產品；但其效能保留高度依賴工作負載，記憶體密集型應用仍有折損。另一邊，HBM 售罄至 2029 年的同時，CXMT 十廠擴產預示遠期 DRAM 價格壓力；短期缺貨推高 AI 伺服器成本、長期擴產壓低記憶體價格，兩股力量將在 2027–2028 年交會，記憶體價格波動會直接傳導到 AI 伺服器成本與 neocloud 的毛利。
+
+4. 開源推論堆疊走向產業聯盟化，硬體中立的推論層正在成為新的競爭場。SGLang 聯盟把 NVIDIA、AMD、Intel、Google、Meta 綁進同一推論引擎路線圖，呼應 Anthropic「三天內把 Claude 移植到 AMD GPU」的說法（未經獨立驗證）與 AMD MEXT 的記憶體效率路線：推論佔 AI 算力約三分之二，誰掌握推論軟體層，誰就掌握了跨硬體遷移的摩擦成本。對 NVIDIA 而言，CUDA 的護城河不在訓練、而在推論生態的黏性；SGLang 聯盟的成立，意味著 hyperscaler 與晶片競爭者正在聯手降低這層黏性，12 月 9 日 Broadcom 財報與 2027 年 TPU 部署量將是檢驗客製化晶片能否承接這股遷移動能的指標。
+
+5. 客製化晶片的資金輪動先於訂單輪動，時間表比敘事長。Broadcom 收漲 5.54%，市場把 NVIDIA 動盪定價為競爭對手的機會；但郭明錤的判斷——NVIDIA 重組對產品競爭力的影響不早於 2028 年——提醒市場，領導層變動不會在短期內改變 GPU 的交付與路線圖。真正的檢驗點不在股價輪動，而在 12 月 9 日 Broadcom 財報的 AI 營收指引、2027 年 Anthropic 的 5 GW TPU 部署與 OpenAI XPU 的落地進度；在此之前，客製化晶片的漲勢更多反映「第二供應來源」的選擇權價值，而非已確認的訂單轉移。
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+四、值得關注
+
+- 11 月 13 日 08:30（美東）：美國 10 月 PPI。
+- 11 月 17 日盤後：NVIDIA Q3 財報（臨時執行長 Colette Kress 首次主持法說會；市場預期營收約 1,090 億美元）。
+- 11 月 17 日：Effingham County 就 OpenAI Camellia 園區用地計畫投票；Microsoft Ignite 開幕（11 月 17–20 日，舊金山）。
+- 11 月 18 日：Anthropic IPO 定價；NVIDIA 員工大會（09:00，太平洋時間）；眾議院原定黃仁勳閉門簡報的日期——黃仁勳已辭職，是否仍出席未定。
+- 11 月 19 日：Anthropic 預定在 Nasdaq 以代號 ANT 首日交易；Effingham County 就 OpenAI Camellia 園區最終許可投票。
+- 11 月 26 日：Marvell 2027 財年第三季財報。
+- 12 月 3 日：參議院銀行委員會要求黃仁勳作證。
+- 12 月 9 日：Broadcom 2026 財年第四季財報；SpaceX 兩座 AI 超算園區同日面臨地方表決（Cochise County 聽證、Starbase 稅收減免投票）。
+- 12 月 10 日：參議院銀行委員會要求商務部長 Lutnick 作證。
+- 2027 年 1 月 14 日：TSMC Q4 法說會。</div>
+</section>
 <section class="edition" id="2026-11-12-afternoon">
 <h2>2026-11-12（午報）</h2>
 <div class="body">2026-11-12（午報）
